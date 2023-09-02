@@ -99,13 +99,11 @@ const Trunklayout = () => {
             onMouseLeave={handleMouseLeave}
             style={boxstyle1}
           ></div>
-          <Link to={"/mobileLogin"}>
-            <div
-              onMouseEnter={handleMouseEnter}
-              onMouseLeave={handleMouseLeave}
-              style={boxstyle2}
-            ></div>
-          </Link>
+          <div
+            onMouseEnter={handleMouseEnter}
+            onMouseLeave={handleMouseLeave}
+            style={boxstyle2}
+          ></div>
           <div
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
