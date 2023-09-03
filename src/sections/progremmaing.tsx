@@ -2,6 +2,7 @@ import React from "react";
 import { BsFiletypeHtml } from "react-icons/bs";
 import { BsFiletypeCss } from "react-icons/bs";
 import { DiJavascript1 } from "react-icons/di";
+import { FaPython } from "react-icons/fa";
 import Sublayout from "../layout/sub/sub";
 import Title from "../componant/sub/Title/title";
 import Contants from "../componant/sub/contants/contants";
@@ -37,6 +38,10 @@ const Programming = () => {
           <Icon
             realIcon={<ReactIcon Icon={DiJavascript1}></ReactIcon>}
             icon="js"
+          ></Icon>
+          <Icon
+            realIcon={<ReactIcon Icon={FaPython}></ReactIcon>}
+            icon="python"
           ></Icon>
         </div>
       </Sublayout>

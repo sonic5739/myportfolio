@@ -41,6 +41,7 @@ const Trunklayout = () => {
     backgroundRepeat: "no-repeat",
     cursor: "pointer",
     transition: "all .3s",
+    border: "solid 1px rgba(0,0,0,0.15)",
   };
   const boxstyle2: React.CSSProperties = {
     width: "280px",
@@ -78,6 +79,9 @@ const Trunklayout = () => {
     margin: "10px",
     border: "solid 1px rgba(0,0,0,0.15)",
     cursor: "pointer",
+    backgroundImage: 'url("snake.PNG")',
+    backgroundRepeat: "no-repeat",
+    backgroundSize: "cover",
   };
   const boxstyle6: React.CSSProperties = {
     width: "280px",
@@ -85,6 +89,9 @@ const Trunklayout = () => {
     margin: "10px",
     border: "solid 1px rgba(0,0,0,0.15)",
     cursor: "pointer",
+    backgroundImage: 'url("login.PNG")',
+    backgroundRepeat: "no-repeat",
+    backgroundSize: "cover",
   };
   return (
     <div style={trunkstyle}>
@@ -94,38 +101,44 @@ const Trunklayout = () => {
       </div>
       <div style={projectstyle2}>
         <div style={projectstyle3}>
-          <div
+          <a
+            href="https://sonic5739.github.io/chelsea/"
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
             style={boxstyle1}
-          ></div>
-          <div
+          ></a>
+          <a
+            href="https://sonic5739.github.io/chelsealogin/"
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
             style={boxstyle2}
-          ></div>
-          <div
+          ></a>
+          <a
+            href="https://sonic5739.github.io/dizmon/"
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
             style={boxstyle3}
-          ></div>
+          ></a>
         </div>
         <div style={projectstyle3}>
-          <div
+          <a
+            href="https://sonic5739.github.io/eggs/"
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
             style={boxstyle4}
-          ></div>
-          <div
+          ></a>
+          <a
+            href="https://github.com/sonic5739/pygame/blob/main/index.py"
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
             style={boxstyle5}
-          ></div>
-          <div
+          ></a>
+          <a
+            href="https://sonic5739.github.io/login/"
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
             style={boxstyle6}
-          ></div>
+          ></a>
         </div>
       </div>
     </div>
